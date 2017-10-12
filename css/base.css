@@ -1,0 +1,11 @@
+*{
+		margin: 0; /* body上默认有8像素的margin值所以清除 */
+		padding: 0;
+		font-weight: normal;
+		text-decoration: none;/* 清除文字装饰 */
+}
+img{
+	width: 100%;
+	height: 100%;
+	border: 0;
+}
