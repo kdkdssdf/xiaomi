@@ -3,6 +3,8 @@
 		padding: 0;
 		font-weight: normal;
 		text-decoration: none;/* 清除文字装饰 */
+		list-style-type: none;/* 清除列表样式 */
+		font-style: normal;
 }
 img{
 	width: 100%;

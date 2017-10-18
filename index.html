@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/index.css" class="">
 	<link rel="stylesheet" href="css/base.css" class="">
 	<link rel="stylesheet" href="font/font_438886_4gdaapqwraglow29/iconfont.css" class="">
+	<link rel="stylesheet" href="font/font/iconfont.css">
 </head>
 <body>
 <!-- 头部开始 -->
@@ -51,9 +52,12 @@
 					<h5 class="head-fenge">|</h5>
 
 					<a href="https://static.mi.com/feedback/" class="head-wenzi marginright" target="_self">消息通知</a>
-				<div class="gouhe">
-					<a href="" class="head-wenzi iconfont icon-cart"></a>
-					<a href="https://static.mi.com/feedback/" class="go" target="_self">购物车（0）</a>
+				<!-- <div class="gouhe"> -->
+					<a href="" class="buy">
+						<i class="iconfont icon-cart"></i>
+						<span>购物车（0）</span>
+					</a>
+
 				</div>					
 			</div>
 		</div>
@@ -76,16 +80,131 @@
 			<a href="#" class="nav-zi">服务</a >
 			<a href="#" class="nav-zi">社区</a>
 		</div>
+		<div class="shurukuang">
+			<input type="text" class="sousuo" placeholder="小米MX2">
+			<input type="submit" value="&#xe610;" class="iconfont icon-tubiao17">
+			
+		</div>
 	</div>
 <!-- 导航结束 -->
 
 <!-- banner板块开始 -->
-	<div class="banner"></div>
+	<div class="banner">
+		<div class="bannertubox">
+			<img src="img/banner.jpg" alt="" class="">
+		</div>
+		<ul class="banner-liat">
+			<li>
+				<a href="">
+					<span class="banner-liatL">小米
+					</span>
+					<span class="banner-liatR"> > 
+					</span>
+				</a>
+			</li>
+			
+			<li>
+				<span class="banner-liatL">小米
+				</span>
+				<span class="banner-liatR"> > 
+				</span>
+			</li>
+
+			<li>
+				<span class="banner-liatL">小米
+				</span>
+				<span class="banner-liatR"> > 
+				</span>
+			</li>
+
+			<li>
+				<span class="banner-liatL">小米
+				</span>
+				<span class="banner-liatR"> > 
+				</span>
+			</li>
+
+			<li>
+				<span class="banner-liatL">小米
+				</span>
+				<span class="banner-liatR"> > 
+				</span>
+			</li>
+
+			<li>
+				<span class="banner-liatL">小米
+				</span>
+				<span class="banner-liatR"> > 
+				</span>
+			</li>
+
+			<li>
+				<span class="banner-liatL">小米
+				</span>
+				<span class="banner-liatR"> > 
+				</span>
+			</li>
+
+			<li>
+				<span class="banner-liatL">小米
+				</span>
+				<span class="banner-liatR"> > 
+				</span>
+			</li>
+
+			<li>
+				<span class="banner-liatL">小米
+				</span>
+				<span class="banner-liatR"> > 
+				</span>
+			</li>
+
+			<li>
+				<span class="banner-liatL">小米
+				</span>
+				<span class="banner-liatR"> > 
+				</span>
+			</li>
+		</ul>
+
+		<a href="" class="banner-button banner-buttonL"> < </a>
+		<a href="" class="banner-button banner-buttonR"> > </a>
+
+		<ul class="banner-dian">
+			<li class="dianyi"></li>
+			<li class="dianyi"></li>
+			<li class="dianyi"></li>
+			<li class="dianyi"></li>
+			<li class="dianyi"></li>
+			<li class="dianyi"></li>
+			
+		</ul>
+	</div>
 <!-- banner板块结束 -->
 
 <!-- 四块开始 -->
 	<div class="dahezi">
 		<div class="box box1">
+			<ul class="biaoqian">
+				<li class="zizi">
+					<a href=""><i class="iconfont icon-xuangoushouji"></i>选购手机</a>
+				</li>
+				<li class="zizi">
+					<a href=""><i class="iconfont icon-liwu"></i>企业团购</a>
+				</li>
+				<li class="zizi">
+					<a href=""><i class="iconfont icon-xuangoushouji"></i>选购手机</a>
+				</li>
+				<li class="zizi">
+					<a href=""><i class="iconfont icon-xuangoushouji"></i>选购手机</a>
+				</li>
+				<li class="zizi">
+					<a href=""><i class="iconfont icon-xuangoushouji"></i>选购手机</a>
+				</li>
+				<li class="zizi">
+					<a href=""><i class="iconfont icon-xuangoushouji"></i>选购手机</a>
+				</li>
+			</ul>
 		</div>
 		<div class="tou1 box1 box2">
 			<img src="img/xmad_15064139304852_MqbBl.jpg" alt="" class="">
@@ -107,8 +226,8 @@
 		<div class="dingbuhezi">
 			<div class="xiaomiwenzi">小米明星单品</div>
 			<div class="zuoyou">
-				<div class="zuobian"><</div>
-				<div class="youbian">></div>
+				<div class="zuobian"> < </div>
+				<div class="youbian"> > </div>
 			</div>
 		</div>
 
@@ -162,7 +281,6 @@
 
 <!-- 小米单品结束 -->
 <!-- 产品分类开始 -->
-
 	<div class="home">
 		<div id="jiadian">
 			<div class="jiadiantop">
@@ -188,6 +306,7 @@
 						<h1 class="xiaziyi">小米电视4A 55标准版</h1>
 						<h1 class="xiazier">4K高清HDR/真四核64位高性能处理器</h1>
 						<h1 class="xiazisan">2699元</h1>
+						<div class="jiadiantan"></div>
 					</div>
 
 					<div class="youproduct">
@@ -244,7 +363,7 @@
 						<h1 class="xiazisan">599元</h1>
 					</div>
 
-					<div class="youproduct youproduct1">
+					<div class="youproduct1">
 						<div class="xiazuo">
 							<div class="zuohe">
 								<h1 class="zuozuohe">小白摄像机</h1>
@@ -261,7 +380,7 @@
 								<h1 class="zuozuohehe xiao">热门</h1>
 							</div>
 							<div class="youhe youheyi">
-								<a href="" class="iconfont icon-gengduo"></a>
+								<a href="" class="iconfont icon-gengduo-"></a>
 								
 							</div>
 						</div>
@@ -269,8 +388,7 @@
 				</div>
 			</div>
 		</div>
-
-
+	
 		<div id="jiadian">
 			<div class="jiadiantop top">
 				<h2>智能</h2>
@@ -359,7 +477,7 @@
 						<h1 class="xiazisan">399元</h1>
 					</div>
 
-					<div class="youproduct youproduct1">
+					<div class="youproduct1">
 						<div class="xiazuo">
 							<div class="zuohe">
 								<h1 class="zuozuohe">小米VR眼镜</h1>
@@ -375,15 +493,16 @@
 								<h1 class="zuozuohe da">浏览更多</h1>
 								<h1 class="zuozuohehe xiao">热门</h1>
 							</div>
+							
 							<div class="youhe youheyi">
-								<!-- <img src="img/images/icon_06.png" alt="" class=""> -->
+								<a href="" class="iconfont icon-gengduo-"></a>
 							</div>
 						</div>
 					</div>
 			</div>
 		</div>
 
-
+<!-- 搭配开始 -->
 		<div id="jiadian">
 			<div class="jiadiantop top">
 				<h2>搭配</h2>
@@ -488,15 +607,15 @@
 								<h1 class="zuozuohehe xiao">热门</h1>
 							</div>
 							<div class="youhe youheyi">
-								<!-- <img src="img/images/icon_06.png" alt="" class=""> -->
+								<a href="" class="iconfont icon-gengduo-"></a>
 							</div>
 						</div>
 					</div>
 			</div>
 		</div>
-
-
-		<div id="jiadian">
+<!-- 搭配结束 -->
+<!-- 配件开始 -->
+	<div id="jiadian">
 			<div class="jiadiantop top">
 				<h2>配件</h2>
 				<div class="jiadian-wenzi">
@@ -600,14 +719,15 @@
 								<h1 class="zuozuohehe xiao">热门</h1>
 							</div>
 							<div class="youhe youheyi">
-								<!-- <img src="img/images/icon_06.png" alt="" class=""> -->
+								<a href="" class="iconfont icon-gengduo-"></a>
+								
 							</div>
 						</div>
 					</div>
 			</div>
-		</div>
-
-
+	</div>
+<!-- 配件结束 -->
+<!-- 周边开始 -->
 		<div id="jiadian">
 			<div class="jiadiantop top">
 				<h2>周边</h2>
@@ -713,73 +833,473 @@
 								<h1 class="zuozuohehe xiao">热门</h1>
 							</div>
 							<div class="youhe youheyi">
-								<!-- <img src="img/images/icon_06.png" alt="" class=""> -->
+								<a href="" class="iconfont icon-gengduo-"></a>
+								
 							</div>
 						</div>
 					</div>
 			</div>
 		</div>
-
-	</div>
-<!-- 产品分类结束 -->
+			
+<!-- 周边结束 -->
 <!-- 为你推荐开始 -->
-	<div class="danpinghezi">
+		<div class="jiadianda">
+			<div class="jiadiantop top">
+				<h2>为你推荐</h2>
+				<div class="jiadian-wenzi">
+					<div class="zuoyou">
+						<div class="zuobian"> < </div>
+						<div class="youbian"> > </div>
+					</div>
+				</div>
+			</div>
+
+			<div class="jiadianxia xiaxia">
+					<div class="youproduct youproduct3">
+						<div class="tu tuzhineng">
+							<img src="img/zhinengyi.jpg" alt="" class="">
+						</div>
+						<h1 class="xiaziyi bu10">小米5X</h1>
+						<h1 class="xiazier zhinenger">1499元</h1>
+						<h1 class="xiazisan zuixia">1.8万人好评</h1>
+					</div>
+
+
+					<div class="youproduct youproduct3">
+						<div class="tu tuzhineng">
+							<img src="img/zhinengyi.jpg" alt="" class="">
+						</div>
+						<h1 class="xiaziyi bu10">小米5X</h1>
+						<h1 class="xiazier zhinenger">1499元</h1>
+						<h1 class="xiazisan zuixia">1.8万人好评</h1>
+					</div>
+
+					<div class="youproduct youproduct3">
+						<div class="tu tuzhineng">
+							<img src="img/zhinengyi.jpg" alt="" class="">
+						</div>
+						<h1 class="xiaziyi bu10">小米5X</h1>
+						<h1 class="xiazier zhinenger">1499元</h1>
+						<h1 class="xiazisan zuixia">1.8万人好评</h1>
+					</div>
+
+					<div class="youproduct youproduct3">
+						<div class="tu tuzhineng">
+							<img src="img/zhinengyi.jpg" alt="" class="">
+						</div>
+						<h1 class="xiaziyi bu10">小米5X</h1>
+						<h1 class="xiazier zhinenger">1499元</h1>
+						<h1 class="xiazisan zuixia">1.8万人好评</h1>
+					</div>
+
+					<div class="youproduct youproduct3 youproduct4">
+						<div class="tu tuzhineng">
+							<img src="img/zhinengyi.jpg" alt="" class="">
+						</div>
+						<h1 class="xiaziyi bu10">小米5X</h1>
+						<h1 class="xiazier zhinenger">1499元</h1>
+						<h1 class="xiazisan zuixia">1.8万人好评</h1>
+					</div>
+			</div>
+		</div>
+			
+<!-- 为你推荐结束 -->
+<!-- 热评产品 -->
+		<div class="danpinghezi chanpin">
 			<div class="dingbuhezi">
-				<div class="xiaomiwenzi">小米明星单品</div>
-				<div class="zuoyou">
-					<div class="zuobian"><</div>
-					<div class="youbian">></div>
+				<div class="xiaomiwenzi">热评产品
 				</div>
 			</div>
 
-			<div class="xiabuhezi">
-				<div class="heziyi hezier">
+			<div class="xiabuhezi bian">
+				<div class="hezier chaoda hhh hhh1">
 					<div class="tupian">
-						<img src="img/yashuaa.png" alt="" class="">
+						<img src="img/repingyi.jpg" alt="" class="">
 					</div>
-					<div class="yashuashang">贝医生巴氏牙刷（四色装）</div>
-					<div class="yashuaxia">德日进口刚毛，专利科学布局</div>
-					<div class="yashuajiage">39.9元</div>
-				</div>
+					<div class="yashuashang yayayi">非常好用，孩子使用防止沉迷于电话影响学习。做工很好，定位基本准确，通话清晰，如果加入时间显示更完美...</div>
+					<div class="yayaer">来自于 178576259 的评价</div>
+					<div class="zihe">
+						<div class="yihe">
 
-				<div class="heziyi">
-					<div class="tupian">
-						<img src="img/shouji.png" alt="" class="">
+							米兔定位电话
+							
+						</div>
+						<div class="erhe">
+							|
+						</div>
+						<div class="sanhe">
+							169元
+						</div>
 					</div>
-					<div class="yashuashang">红米NOTE 4X</div>
-					<div class="yashuaxia">4100mAh超长续航，多彩金属</div>
-					<div class="yashuajiage">999元起</div>
 				</div>
-
-				<div class="heziyi">
+				<div class="hezier chaoda hhh">
 					<div class="tupian">
-						<img src="img/heise.png" alt="" class="">
+						<img src="img/repingyi.jpg" alt="" class="">
 					</div>
-					<div class="yashuashang">米家压力IH电饭煲）</div>
-					<div class="yashuaxia">智能烹饪，压力IH加热技术</div>
-					<div class="yashuajiage">999元起</div>
+					<div class="yashuashang yayayi">非常好用，孩子使用防止沉迷于电话影响学习。做工很好，定位基本准确，通话清晰，如果加入时间显示更完美...</div>
+					<div class="yayaer">来自于 178576259 的评价</div>
+					<div class="zihe">
+						<div class="yihe">
+
+							米兔定位电话
+							
+						</div>
+						<div class="erhe">
+							|
+						</div>
+						<div class="sanhe">
+							169元
+						</div>
+					</div>
 				</div>
-
-				<div class="heziyi">
+				<div class="hezier chaoda hhh">
 					<div class="tupian">
-						<img src="img/kongqi.png" alt="" class="">
+						<img src="img/repingyi.jpg" alt="" class="">
 					</div>
-					<div class="yashuashang">米家空气净化器</div>
-					<div class="yashuaxia">OLED显示屏幕，激光颗粒物传感器</div>
-					<div class="yashuajiage">1499元</div>
+					<div class="yashuashang yayayi">非常好用，孩子使用防止沉迷于电话影响学习。做工很好，定位基本准确，通话清晰，如果加入时间显示更完美...</div>
+					<div class="yayaer">来自于 178576259 的评价</div>
+					<div class="zihe">
+						<div class="yihe">
+
+							米兔定位电话
+							
+						</div>
+						<div class="erhe">
+							|
+						</div>
+						<div class="sanhe">
+							169元
+						</div>
+					</div>
 				</div>
-
-				<div class="heziyi">
+				<div class="hezier chaoda hhh">
 					<div class="tupian">
-						<img src="img/luyouqi.png" alt="" class="">
+						<img src="img/repingyi.jpg" alt="" class="">
 					</div>
-					<div class="yashuashang">小米路由器3</div>
-					<div class="yashuaxia">更快更强，不止四天线</div>
-					<div class="yashuajiage">149元</div>
+					<div class="yashuashang yayayi">非常好用，孩子使用防止沉迷于电话影响学习。做工很好，定位基本准确，通话清晰，如果加入时间显示更完美...</div>
+					<div class="yayaer">来自于 178576259 的评价</div>
+					<div class="zihe">
+						<div class="yihe">
+
+							米兔定位电话
+							
+						</div>
+						<div class="erhe">
+							|
+						</div>
+						<div class="sanhe">
+							169元
+						</div>
+					</div>
+				</div>				
+			</div>
+		</div>
+<!-- 内容开始 -->
+		<div class="danpinghezi neirong">
+			<div class="dingbuhezi">
+				<div class="xiaomiwenzi">
+				内容
 				</div>
 			</div>
+
+			<div class="neirongxia">
+				<div class="hezier chaoda hhh hhh1 duyi">
+					<h3 class="tushu">
+						图书
+					</h3>
+					<div class="yashuashang yayayi neirongbox">
+						<h4 class="named">
+							<a href="" class="">
+								哈利·波特与被诅咒的孩子
+							</a>
+						</h4>
+						<div class="dsce">
+							哈利·波特第八个故事中文版震撼来
+							袭！特别彩排版剧本！
+						</div>
+						<div class="jiahe">
+							<a href="" class="">
+								29.37元
+							</a>
+						</div>
+						<div class="neirongtu">
+							<img src="img/imgtu.png" alt="" class="">
+						</div>
+						<ul class="sandian">
+							<li class="diyidian1"></li>
+							<li class="diyidian2"></li>
+							<li class="diyidian3"></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="hezier chaoda hhh hhh1">
+					<h3 class="tushu">
+						图书
+					</h3>
+					<div class="yashuashang yayayi neirongbox">
+						<h4 class="named">
+							<a href="" class="">
+								哈利·波特与被诅咒的孩子
+							</a>
+						</h4>
+						<div class="dsce">
+							哈利·波特第八个故事中文版震撼来
+							袭！特别彩排版剧本！
+						</div>
+						<div class="jiahe">
+							<a href="" class="">
+								29.37元
+							</a>
+						</div>
+						<div class="neirongtu">
+							<img src="img/imgtu.png" alt="" class="">
+						</div>
+						<ul class="sandian">
+							<li class="diyidian"></li>
+							<li class="diyidian"></li>
+							<li class="diyidian"></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="hezier chaoda hhh hhh1">
+					<h3 class="tushu">
+						图书
+					</h3>
+					<div class="yashuashang yayayi neirongbox">
+						<h4 class="named">
+							<a href="" class="">
+								哈利·波特与被诅咒的孩子
+							</a>
+						</h4>
+						<div class="dsce">
+							哈利·波特第八个故事中文版震撼来
+							袭！特别彩排版剧本！
+						</div>
+						<div class="jiahe">
+							<a href="" class="">
+								29.37元
+							</a>
+						</div>
+						<div class="neirongtu">
+							<img src="img/imgtu.png" alt="" class="">
+						</div>
+						<ul class="sandian">
+							<li class="diyidian"></li>
+							<li class="diyidian"></li>
+							<li class="diyidian"></li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="hezier chaoda hhh hhh1">
+					<h3 class="tushu">
+						图书
+					</h3>
+					<div class="yashuashang yayayi neirongbox">
+						<h4 class="named">
+							<a href="" class="">
+								哈利·波特与被诅咒的孩子
+							</a>
+						</h4>
+						<div class="dsce">
+							哈利·波特第八个故事中文版震撼来
+							袭！特别彩排版剧本！
+						</div>
+						<div class="jiahe">
+							<a href="" class="">
+								29.37元
+							</a>
+						</div>
+						<div class="neirongtu">
+							<img src="img/imgtu.png" alt="" class="">
+						</div>
+						<ul class="sandian">
+							<li class="diyidian"></li>
+							<li class="diyidian"></li>
+							<li class="diyidian"></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+<!-- 内容结束 -->
+<!-- 视频开始 -->
+		<div class="danpinghezi chanpin shipinda">
+			<div class="dingbuhezi">
+				<div class="xiaomiwenzi">视频
+				</div>
+			</div>
+
+			<div class="xiabuhezi bian">
+				<div class="shipinxia diyixia">
+					<div class="tupianshipin">
+						<img src="img/shipinn.jpg" alt="" class="">
+					</div>
+					<div class="shipinzi">雷军与斯塔克打造全面屏2.0</div>
+					<div class="shipinzier">一场关于小米MIX 2 极致工艺的巅峰对话</div>
+				</div>	
+
+				<div class="shipinxia">
+					<div class="tupianshipin">
+						<img src="img/shipinn.jpg" alt="" class="">
+					</div>
+					<div class="shipinzi">雷军与斯塔克打造全面屏2.0</div>
+					<div class="shipinzier">一场关于小米MIX 2 极致工艺的巅峰对话</div>
+				</div>
+
+				<div class="shipinxia">
+					<div class="tupianshipin">
+						<img src="img/shipinn.jpg" alt="" class="">
+					</div>
+					<div class="shipinzi">雷军与斯塔克打造全面屏2.0</div>
+					<div class="shipinzier">一场关于小米MIX 2 极致工艺的巅峰对话</div>
+				</div>
+
+				<div class="shipinxia">
+					<div class="tupianshipin">
+						<img src="img/shipinn.jpg" alt="" class="">
+					</div>
+					<div class="shipinzi">雷军与斯塔克打造全面屏2.0</div>
+					<div class="shipinzier">一场关于小米MIX 2 极致工艺的巅峰对话</div>
+				</div>
+
+			</div>
+
 
 		</div>
-<!-- 为你推荐结束 -->
+	</div>
+<!-- 产品分类结束 -->
+<!-- 站点开始 -->
+		<div class="footer">
+				<div class="neikuang">
+					<div class="yejiao-top">
+						<ul class="yejiao-top-zi">
+							<li class="yejiao-top-zi1"><i class="iconfont">&#xe629;</i>预约维修服务</li>
+							<li><i class="iconfont">&#xe612;</i>7天无理由退换</li>
+							<li><i class="iconfont">&#xe603;</i>15天免费换货</li>
+							<li><i class="iconfont">&#xe662;</i>满150元包邮</li>
+							<li><i class="iconfont">&#xe619;</i>520余家售后网点</li>
+						</ul>
+					</div>
+					<div class="yejiao-mid">
+						<ul class="yejiao-mid-zi">
+							<li class="help">帮助中心</li>
+							<li class="zhanghu">账户管理</li>
+							<li>购物指南</li>
+							<li> 订单操作</li>
+						</ul>
+						<ul class="yejiao-mid-zi">
+							<li class="help">帮助中心</li>
+							<li class="zhanghu">账户管理</li>
+							<li>购物指南</li>
+							<li> 订单操作</li>
+						</ul>
+						<ul class="yejiao-mid-zi">
+							<li class="help">帮助中心</li>
+							<li class="zhanghu">账户管理</li>
+							<li>购物指南</li>
+							<li> 订单操作</li>
+						</ul>
+						<ul class="yejiao-mid-zi">
+							<li class="help">帮助中心</li>
+							<li class="zhanghu">账户管理</li>
+							<li>购物指南</li>
+							<li> 订单操作</li>
+						</ul>
+						<ul class="yejiao-mid-zi">
+							<li class="help">帮助中心</li>
+							<li class="zhanghu">账户管理</li>
+							<li>购物指南</li>
+							<li> 订单操作</li>
+						</ul>
+						<ul class="yejiao-mid-zi">
+							<li class="help">帮助中心</li>
+							<li class="zhanghu">账户管理</li>
+							<li>购物指南</li>
+							<li> 订单操作</li>
+						</ul>
+						<div class="youmian">
+							<p class="phone">400-100-5678</p>
+							<p class="wenzi">周一至周日 8:00-18:00 <br>（仅收市话费）</p>
+							<a href="" class="dianhua">24小时在线客服</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="yejiao-buttom">
+				<div class="yejiao-buttom-nei">
+					<div class="logo">
+						<img src="img/logo-footer.png" alt="">
+					</div>
+					<div class="text">
+						<a href="">小米商城<span>|</span></a>
+						<a href="">MIUI<span>|</span></a>
+						<a href="">米聊<span>|</span></a>
+						<a href="">多看书城<span>|</span></a>
+						<a href="">小米路由器<span>|</span></a>
+						<a href="">视频电话<span>|</span></a>
+						<a href="">小米天猫店<span>|</span></a>
+						<a href="">小米淘宝直营店<span>|</span></a>
+						<a href="">小米网盟<span>|</span></a>
+						<a href="">小米移动<span>|</span></a>
+						<a href="">隐私政策<span>|</span></a>
+						<a href="">Select Region </a>
+
+						<a href="">小米商城<span>|</span></a>
+						<a href="">MIUI<span>|</span></a>
+						<a href="">米聊<span>|</span></a>
+						<a href="">多看书城<span>|</span></a>
+						<a href="">小米路由器<span>|</span></a>
+						<a href="">视频电话<span>|</span></a>
+						<a href="">小米天猫店<span>|</span></a>
+						<a href="">小米淘宝直营店<span>|</span></a>
+						<a href="">小米网盟<span>|</span></a><br>
+
+						<a href="">小米商城<span>|</span></a>
+						<a href="">MIUI<span>|</span></a>
+						<a href="">米聊<span>|</span></a>
+						<a href="">多看书城<span>|</span></a>
+						<a href="">小米路由器<span>|</span></a>
+						<a href="">视频电话<span>|</span></a>
+						<a href="">小米天猫店<span>|</span></a>
+						<a href="">小米淘宝直营店<span>|</span></a>
+						<a href="">小米网盟<span>|</span></a>
+						<a href="">小米移动<span>|</span></a>
+						<a href="">隐私政策<span>|</span></a>
+						<a href="">Select Region </a>
+
+					</div>
+					<div class="tutu">
+						<a href="">
+							<div class="tutu1">
+								<img src="img/truste.png" alt="">
+							</div>
+						</a>
+						<a href="">
+							<div class="tutu1">
+								<img src="img/truste.png" alt="">
+							</div>
+						</a>
+						<a href="">
+							<div class="tutu1">
+								<img src="img/truste.png" alt="">
+							</div>
+						</a>
+						<a href="">
+							<div class="tutu1">
+								<img src="img/truste.png" alt="">
+							</div>
+						</a>
+					</div>
+				</div>
+				<div class="slogan">
+							探索黑科技，小米为发烧而生！
+				</div>
+			</div>
+<!-- 站点结束 -->
+	
 </body>
 </html>
